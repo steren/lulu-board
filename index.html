@@ -151,16 +151,6 @@
   </script>
 
   <script>
-    // Service worker related code
-    if (navigator.serviceWorker.controller) {
-      console.log('active service worker found, no need to register')
-    } else {
-      //Register the ServiceWorker
-      navigator.serviceWorker.register('worker.js', {
-        scope: './'
-      }).then(function(reg) {
-        console.log('Service worker has been registered for scope:'+ reg.scope);
-      });
-    }
+    navigator.serviceWorker.register('sw.js')
   </script>
 </html>
