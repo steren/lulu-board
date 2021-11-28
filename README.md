@@ -1,3 +1,3 @@
-# Jojo board
+# Lulu board
 
 Soundboard
