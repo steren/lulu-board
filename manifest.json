@@ -3,9 +3,9 @@
   "name": "Lulu-board",
   "icons": [
     {
-      "src": "icon-maskable",
+      "src": "icon-maskable-512.jpg",
       "type": "image/jpeg",
-      "sizes": "1000x1000",
+      "sizes": "512x512",
       "purpose": "maskable"
     },
     {
