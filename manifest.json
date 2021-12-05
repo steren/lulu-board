@@ -1,16 +1,27 @@
 {
-    "short_name": "Jojos",
-    "name": "Jojos board",
-    "icons": [
-      {
-        "src": "icon.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ],
-    "start_url": "/",
-    "background_color": "white",
-    "display": "standalone",
-    "scope": "/",
-    "theme_color": "#6200ee"
-  }
+  "short_name": "Lulu",
+  "name": "Lulu-board",
+  "icons": [
+    {
+      "src": "icon-maskable",
+      "type": "image/jpeg",
+      "sizes": "1000x1000",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-transparent-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-transparent.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#f09800",
+  "background_color": "#b4f0fb"
+}
