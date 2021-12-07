@@ -24,6 +24,9 @@ var urlsToCache = [
   "sounds/String Cheese.m4a",
   "sounds/Tatata.m4a",
   "sounds/Yeah.m4a",
+  "sounds/Nope.m4a",
+  "sounds/Oh papa.m4a",
+  "sounds/open it.m4a",
 ];
 
 self.addEventListener('install', (event) => {
